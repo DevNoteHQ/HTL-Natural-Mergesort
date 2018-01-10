@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTL-Natural-Mergesort", "HTL-Natural-Mergesort.csproj", "{C2DE7631-2092-4740-9DAD-B699F60B0434}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DE7631-2092-4740-9DAD-B699F60B0434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DE7631-2092-4740-9DAD-B699F60B0434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DE7631-2092-4740-9DAD-B699F60B0434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DE7631-2092-4740-9DAD-B699F60B0434}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACE4FC4-5F4D-4AD7-8672-46E84DC2367F}
+	EndGlobalSection
+EndGlobal

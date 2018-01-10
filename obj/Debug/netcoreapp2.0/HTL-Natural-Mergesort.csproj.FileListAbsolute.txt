@@ -1,0 +1,11 @@
+D:\Coding\HTL-Natural-Mergesort\bin\Debug\netcoreapp2.0\HTL-Natural-Mergesort.deps.json
+D:\Coding\HTL-Natural-Mergesort\bin\Debug\netcoreapp2.0\HTL-Natural-Mergesort.runtimeconfig.json
+D:\Coding\HTL-Natural-Mergesort\bin\Debug\netcoreapp2.0\HTL-Natural-Mergesort.runtimeconfig.dev.json
+D:\Coding\HTL-Natural-Mergesort\bin\Debug\netcoreapp2.0\HTL-Natural-Mergesort.dll
+D:\Coding\HTL-Natural-Mergesort\bin\Debug\netcoreapp2.0\HTL-Natural-Mergesort.pdb
+D:\Coding\HTL-Natural-Mergesort\obj\Debug\netcoreapp2.0\HTL-Natural-Mergesort.csprojResolveAssemblyReference.cache
+D:\Coding\HTL-Natural-Mergesort\obj\Debug\netcoreapp2.0\HTL-Natural-Mergesort.csproj.CoreCompileInputs.cache
+D:\Coding\HTL-Natural-Mergesort\obj\Debug\netcoreapp2.0\HTL-Natural-Mergesort.AssemblyInfoInputs.cache
+D:\Coding\HTL-Natural-Mergesort\obj\Debug\netcoreapp2.0\HTL-Natural-Mergesort.AssemblyInfo.cs
+D:\Coding\HTL-Natural-Mergesort\obj\Debug\netcoreapp2.0\HTL-Natural-Mergesort.dll
+D:\Coding\HTL-Natural-Mergesort\obj\Debug\netcoreapp2.0\HTL-Natural-Mergesort.pdb
