@@ -1,0 +1,10 @@
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\bin\Release\Sort_Csharp.exe.config
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\bin\Release\Sort_Csharp.exe
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\bin\Release\Sort_Csharp.pdb
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\obj\Release\Sort_Csharp.csprojResolveAssemblyReference.cache
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\obj\Release\Sort_Csharp.Form1.resources
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\obj\Release\Sort_Csharp.Properties.Resources.resources
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\obj\Release\Sort_Csharp.csproj.GenerateResource.Cache
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\obj\Release\Sort_Csharp.csproj.CoreCompileInputs.cache
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\obj\Release\Sort_Csharp.exe
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp\obj\Release\Sort_Csharp.pdb
