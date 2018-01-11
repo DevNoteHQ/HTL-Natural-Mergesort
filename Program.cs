@@ -4,8 +4,8 @@ namespace HTL_Natural_Mergesort
 {
     class Program
     {
-        const int iElements = 100;
-        const int iMax = 100;
+        const int iElements = 1000000;
+        const int iMax = 10000;
         static void Main(string[] args)
         {
             Sort Sorting = new Sort();
@@ -13,7 +13,9 @@ namespace HTL_Natural_Mergesort
             int[] List = new int[iElements];
             CreateRandomIntArray(ref List, iMax);
 
-            Sorting.MergeSort(ref List);
+            Console.Beep();
+            Sorting.ListedMergeSort(ref List);
+            Console.Beep();
 
             Console.ReadLine();
         }

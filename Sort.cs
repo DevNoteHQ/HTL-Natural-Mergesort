@@ -11,60 +11,44 @@ namespace HTL_Natural_Mergesort
 
         }
 
-        public void MergeSort(ref int[] List)
+        public void ListedMergeSort(ref int[] List)
         {
             List<List<int>> Elements = new List<List<int>>();
-            for(int i = 0, c = 0; i < List.Length;)
+            for (int i = 0; i < List.Length;)
             {
                 List<int> Element = new List<int>();
                 Element.Add(List[i]);
-                Console.WriteLine("Sublist " + Elements.Count + ": ");
-                Console.WriteLine(Element[c]);
-                i++; c++;
+                i++;
                 try
                 {
-                    for (; (i < List.Length) && (List[i - 1] <= List[i]); i++, c++)
+                    for (; (i < List.Length) && (List[i - 1] <= List[i]); i++)
                     {
                         Element.Add(List[i]);
-                        Console.WriteLine(Element[c]);
                     }
                 }
                 catch
                 {
                     Console.WriteLine("Oups! That didn't work!");
                 }
-                c = 0;
                 Elements.Add(Element);
             }
 
-            List<int> RetList = new List<int>();
 
-            for(int i = 0; i < Elements.Count; i++)
+
+            while (Elements.Count > 1)
             {
-                int[] Array = SortTools<int>.ListMerge(RetList, Elements[i]);
-                RetList.Clear();
-                RetList.AddRange(Array);
+                List<int> Element = SortTools.ListMerge(Elements[0], Elements[1]);
+                Elements.RemoveRange(0, 2);
+                Elements.Add(Element);
             }
 
-            List = RetList.ToArray();
-
-            Console.WriteLine("Sorted List:");
-
-            for(int i = 0; i < List.Length; i++)
-            {
-                Console.WriteLine(List[i]);
-            }
+            List = Elements[0].ToArray();
         }
     }
 
-    abstract class SortTools<T>
+    abstract class SortTools
     {
-        public static void Swap(ref T A, ref T B)
-        {
-            T Buffer = A; A = B; B = Buffer;
-        }
-
-        public static int[] ListMerge(List<int> A, List<int> B)
+        public static List<int> ListMerge(List<int> A, List<int> B)
         {
             int iLength = A.Count + B.Count;
             int[] Merged = new int[iLength];
@@ -72,7 +56,7 @@ namespace HTL_Natural_Mergesort
             {
                 if (iB >= B.Count)
                 {
-                    for(; i < iLength; i++, iA++)
+                    for (; i < iLength; i++, iA++)
                     {
                         Merged[i] = A[iA];
                     }
@@ -93,7 +77,7 @@ namespace HTL_Natural_Mergesort
                 }
                 else
                 {
-                    if(B[iB] < A[iA])
+                    if (B[iB] < A[iA])
                     {
                         Merged[i] = B[iB];
                         iB++;
@@ -107,7 +91,9 @@ namespace HTL_Natural_Mergesort
                     }
                 }
             }
-            return Merged;
+            List<int> MergedList = new List<int>();
+            MergedList.AddRange(Merged);
+            return MergedList;
         }
 
         public static int[] ArrayMerge(int[] A, int[] B)
