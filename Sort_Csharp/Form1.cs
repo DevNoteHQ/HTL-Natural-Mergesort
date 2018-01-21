@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Diagnostics;
+
 using Sort_Csharp;
 
 namespace Sort_Csharp_UI
@@ -40,14 +42,28 @@ namespace Sort_Csharp_UI
             sortThread.Start();
         }
 
-        private static void SortThread()
+        private void button2_Click(object sender, EventArgs e)
+        {
+            sortThread.Abort();
+        }
+
+        private void SortThread()
         {
             int[] List = new int[iElements];
             CreateRandomIntArray(ref List, iMax);
 
             Console.Beep();
-            Sort.ListMergeSort(ref List);
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            Sort.ArrayMergeSort(ref List);
+
+            stopwatch.Stop();
             Console.Beep();
+            this.Invoke((MethodInvoker)delegate
+            {
+                label2.Text = "Zeit: " + stopwatch.ElapsedMilliseconds + "ms";
+            });
         }
 
         public static void CreateRandomIntArray(ref int[] List, int iMax)
@@ -58,11 +74,6 @@ namespace Sort_Csharp_UI
             {
                 List[i] = random.Next(iMax);
             }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            sortThread.Abort();
         }
     }
 }

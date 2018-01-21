@@ -3,6 +3,7 @@
 #include <ctime>
 #include <iostream>
 #include <chrono>
+#include <string>
 
 #include "sort.h"
 
@@ -52,8 +53,10 @@ int main()
 		Sort::MergeSort(List, iElements);
 		auto finish = chrono::high_resolution_clock::now();
 		chrono::duration<double> elapsed = finish - start;
+		cout << "Lists: " << Sort::iExLists;
 		cout << "\nMerges: " << Sort::iMerges;
 		cout << "\nElapsed time: " << elapsed.count() * 1000 << " ms \n\n";
+		delete List;
 
 		cout << "Exit? (y)\n";
 		cin >> cRe;
@@ -62,7 +65,8 @@ int main()
 			cin.clear();
 			cin.ignore(10000, '\n');
 		}
-		delete List;
+		while(getchar() != '\n')
+		{ }
 	}
 
 	return 0;

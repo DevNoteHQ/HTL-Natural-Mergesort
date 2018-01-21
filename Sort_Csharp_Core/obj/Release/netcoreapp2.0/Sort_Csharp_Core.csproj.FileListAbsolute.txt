@@ -1,0 +1,10 @@
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\bin\Release\netcoreapp2.0\Sort_Csharp_Core.deps.json
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\bin\Release\netcoreapp2.0\Sort_Csharp_Core.runtimeconfig.json
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\bin\Release\netcoreapp2.0\Sort_Csharp_Core.runtimeconfig.dev.json
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\bin\Release\netcoreapp2.0\Sort_Csharp_Core.dll
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\bin\Release\netcoreapp2.0\Sort_Csharp_Core.pdb
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\obj\Release\netcoreapp2.0\Sort_Csharp_Core.csproj.CoreCompileInputs.cache
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\obj\Release\netcoreapp2.0\Sort_Csharp_Core.AssemblyInfoInputs.cache
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\obj\Release\netcoreapp2.0\Sort_Csharp_Core.AssemblyInfo.cs
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\obj\Release\netcoreapp2.0\Sort_Csharp_Core.dll
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_Core\obj\Release\netcoreapp2.0\Sort_Csharp_Core.pdb

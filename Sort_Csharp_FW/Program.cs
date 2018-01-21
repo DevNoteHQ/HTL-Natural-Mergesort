@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 using Sort_Csharp;
 
@@ -28,8 +29,14 @@ namespace Sort_Csharp_FW
             CreateRandomIntArray(ref List, iMax);
 
             Console.Beep();
-            Sort.ListMergeSort(ref List);
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            Sort.ArrayMergeSort(ref List);
+
+            stopwatch.Stop();
             Console.Beep();
+            Console.WriteLine("Elapsed Time: " + stopwatch.ElapsedMilliseconds + "ms");
         }
 
         public static void CreateRandomIntArray(ref int[] List, int iMax)

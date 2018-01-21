@@ -1,0 +1,6 @@
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_FW\bin\Release\Sort_Csharp_FW.exe.config
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_FW\bin\Release\Sort_Csharp_FW.exe
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_FW\bin\Release\Sort_Csharp_FW.pdb
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_FW\obj\Release\Sort_Csharp_FW.csproj.CoreCompileInputs.cache
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_FW\obj\Release\Sort_Csharp_FW.exe
+D:\Coding\HTL-Natural-Mergesort\Sort_Csharp_FW\obj\Release\Sort_Csharp_FW.pdb

@@ -8,14 +8,15 @@ using namespace std;
 namespace Sort
 {
 	int iMerges = 0;
+	int iExLists = 0;
 	void MergeSort(int* List1, int iElements)
 	{
+		iMerges = 0;
+		int iLists = 0;
 		int* List2 = new int[iElements];
 		int* CountList = new int[iElements];
 
 		CountList[0] = 1;
-
-		int iLists = 0;
 
 		for (int i = 1; i < iElements; i++)
 		{
@@ -31,7 +32,7 @@ namespace Sort
 		}
 		iLists++;
 
-		cout << "Listen: " << iLists;
+		iExLists = iLists;
 
 		int* ListP[2];
 		ListP[0] = &List1[0];
@@ -42,7 +43,7 @@ namespace Sort
 		{
 			for (int i = 0; i < iLists - 1; i += 2)
 			{
-				Merge(ListP[iPointer], ListP[(!iPointer) & 0x1], CountList[i], CountList[i + 1]);
+				Merge(ListP[iPointer], ListP[(~iPointer) & 0x1], CountList[i], CountList[i + 1]);
 				CountList[i / 2] = CountList[i] + CountList[i + 1];
 				ListP[0] += CountList[i / 2];
 				ListP[1] += CountList[i / 2];
