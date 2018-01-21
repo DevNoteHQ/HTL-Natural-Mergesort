@@ -4,11 +4,9 @@
 
 namespace Sort
 {
-	void Sort(int* List, int iElements);
-	void Merge(int* A, int* B, int* Target);
+	extern int iMerges;
+	void MergeSort(int* List, int Elements);
+	void Merge(int* iList1, int* iList2, int iLengthA, int iLengthB);
 }
 
 #endif
-
-
-
